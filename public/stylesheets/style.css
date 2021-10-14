@@ -5,4 +5,30 @@ body {
 
 a {
   color: #00B7FF;
+  font-size: 1.5em;
+  text-decoration: none;
+}
+
+button {
+  background-color: white;
+  padding: 20px;
+  background-color: whitesmoke;
+  border-radius: 50px;
+  border-color: white;
+}
+
+h1 {
+  font-size: 7em;
+  color: white;
+}
+
+body {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("/images/cinema.jpg");
+ 
+}
+
+#contain-feature {
+  float: right;
 }

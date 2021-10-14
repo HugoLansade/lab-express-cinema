@@ -20,3 +20,17 @@ mongoose
   .catch((err) => {
     console.error("Error connecting to mongo: ", err);
   });
+// mongoose
+// .connect("mongodb://localhost/lab-express-cinema", {
+// //     userNewUrlParser : true,
+// //     useUnifiedTopology : true,
+// })
+// .then(async (x) => {
+//     console.log(`Connected to Mongo ! Database name : "${x.connections[0].name}"`)
+
+
+//     // const res = await movieModel.insertMany(movies);
+//     // console.log(res.length + " movies inserted in database !");
+
+// })
+// .catch((err) => console.error("Error connecting to mongo", err));
