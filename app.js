@@ -30,7 +30,7 @@ app.use('/', index);
 
 
 app.get(["/", "/index"], (request, response) => {
-    response.render("index.hbs", {
+    response.render("index.hbs", "movies.hbs", {
         css : ["style.css", "movies.css"]
     });
 });

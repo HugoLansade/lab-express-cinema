@@ -21,5 +21,21 @@ h2 {
 
 .imageMovie {
     height: 200px;
+    
+}
+
+.uniqueMovieBox {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    padding: 50px;
+    
+}
+
+.contain-movies{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;    
 }
 
